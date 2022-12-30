@@ -6,18 +6,23 @@ body {
   min-height: 100vh;
 }
 
+/* Header */
 header div.container {
   font-family: 'Caveat', cursive;
   font-size: 40px;
 }
 
+/*Main*/
 main {
   flex-grow: 1;
   align-self: normal;
 }
 
+/*Menu*/
 main .container {
   display: flex;
+  justify-content: space-evenly;
+  padding-top: 150px;
 }
 
 .container-menu {
@@ -28,9 +33,14 @@ main .container {
 #colorpicker {
  width: 91.6px;
  height: 34px;
- margin: 10px;
+ margin-left: 20px;
+ margin-bottom: 10px;
  border: none;
  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#gridsize {
+  margin-top: 10px;
 }
 
 button {
@@ -58,6 +68,20 @@ button:active {
   transition: transform;
 }
 
+/*Grid*/
+.container-grid {
+  border: thick ridge;
+  position: relative;
+  bottom: 100px;
+  width: 500px;
+  height: 500px;
+  display: grid;
+}
+
+.gridDiv {
+}
+
+/* Footer */ 
 footer div.container {
   font-family:Arial, Helvetica, sans-serif;
   display: flex;
