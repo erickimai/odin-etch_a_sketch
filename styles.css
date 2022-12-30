@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+header div.container {
+  font-family: 'Caveat', cursive;
+  font-size: 40px;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+footer div.container {
+  display: flex;
+  align-items: center;
+}
+
+#github {
+  height: 40px;
+  width: auto;
+  position: relative;
+  bottom: 15%;
+}
