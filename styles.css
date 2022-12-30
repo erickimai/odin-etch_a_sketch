@@ -70,6 +70,7 @@ button:active {
 
 /*Grid*/
 .container-grid {
+  cursor: crosshair;
   border: thick ridge;
   position: relative;
   bottom: 100px;
