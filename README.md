@@ -4,7 +4,7 @@ Project to create something like [**Etch A Sketch**](https://en.wikipedia.org/wi
 
 From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foundations/lessons/etch-a-sketch-project).
 
-🔗 **Live preview:** [here](https://artis-dev.github.io/etch-a-sketch/)
+🔗 **Live preview:** [here]([https://artis-dev.github.io/etch-a-sketch/](https://erickimai.github.io/odin-etch_a_sketch/))
 
 ## Built with
 
@@ -23,7 +23,6 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 
 ### Third party code
 
-* [modern-normalize](https://github.com/sindresorhus/modern-normalize)
 * [Google Fonts](https://fonts.google.com/)
 
 ## Outcome
@@ -32,4 +31,3 @@ From The Odin Project's [curriculum](https://www.theodinproject.com/courses/foun
 * Used CSS3 **grid** and **flex** to create layout.
 * Used **Git** and **GitHub** for project management.
 * Tried to maintain **clean code**.
-* **Cross tested** on Firefox and Chromium based browsers.
